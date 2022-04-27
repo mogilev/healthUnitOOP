@@ -5,7 +5,8 @@ Health unit service system is an academic JAVA project developed for OOP's curri
 
 
 
-The project's aim was to practice the course concepts, respecting the four basic pillars of object-oriented programming:
+## The project's goal 
+Practice the course concepts, respecting the four basic pillars of object-oriented programming:
 1. Encapsulation
 2. Abstraction
 3. Inheritance

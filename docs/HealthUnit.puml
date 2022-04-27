@@ -1,5 +1,5 @@
 @startuml
-title Health Unit
+title Health Unit's Class Diagram
 
 skinparam linetype ortho
 skinparam backgroundcolor transparent
