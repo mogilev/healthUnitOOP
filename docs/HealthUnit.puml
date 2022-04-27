@@ -1,0 +1,52 @@
+@startuml
+title Health Unit
+
+skinparam linetype ortho
+skinparam backgroundcolor transparent
+hide methods
+hide stereotypes
+hide class fields
+hide interface methods
+
+
+AgeGroup "1" <- "     0.*" Client
+HealthProfessional "0.*" -> "   1" Category
+Family "0..1" o--"0..*" Client
+HealthProfessional -- Appointment
+Client -- Appointment
+Appointment "0.*  " - " 1" Service
+Appointment -- HealthUnit
+Client --- HealthUnit
+HealthProfessional --- HealthUnit
+HealthUnit "1"--"1" Program
+AgeGroup --- HealthUnit
+Category --- HealthUnit
+Service -- HealthUnit
+
+
+abstract class Person
+
+enum AgeGroup
+
+class Client extends Person
+
+class HealthProfessional extends Person
+
+enum Category
+
+interface Family
+
+interface Appointment
+
+enum Service
+
+interface HealthUnit
+
+class Program
+
+
+
+
+
+
+@enduml
