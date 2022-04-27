@@ -1,8 +1,8 @@
 # Health Unit - OOP
 Health unit service system is an academic JAVA project developed for OOP's curricular unit. 
 
-![Class Diagram](./docs/HealthUnit_classDiagram.png)
-
+![Class Diagram](./docs/HealthUnit_classDiagram.png#gh-light-mode-only)
+![Class Diagram](./docs/HealthUnit_classDiagram-dark.png#gh-dark-mode-only)
 
 <br>
 
