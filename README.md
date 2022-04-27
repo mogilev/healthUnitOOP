@@ -4,6 +4,7 @@ Health unit service system is an academic JAVA project developed for OOP's curri
 ![Class Diagram](./docs/HealthUnit_classDiagram.png)
 
 
+<br>
 
 ## The project's goal 
 Practice the course concepts, respecting the four basic pillars of object-oriented programming:
@@ -12,11 +13,14 @@ Practice the course concepts, respecting the four basic pillars of object-orient
 3. Inheritance
 4. Polymorphism
 
+<br>
 
 ## Quick Start
 **It was developed to run on the terminal, without a GUI.**
 1. Clone or Download the repo
 2. Run the project inside an IDE(intellij, Eclipse)
+
+<br>
 
 ## Command interface
 
@@ -41,6 +45,8 @@ Practice the course concepts, respecting the four basic pillars of object-orient
 | **L**   - Load                             |                          L↵                          |             Health unit loaded.↵             | An error occurred while loading.↵  |                              n/a                              |           n/a            |
 | Exit                                       |                          ↵                           |                     n/a                      |                n/a                 |                              n/a                              |           n/a            |
 
+<br>
+<br>
 
 ## License & copyright
 © Miguel Alves
