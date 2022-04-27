@@ -1,5 +1,6 @@
 @startuml
 title Health Unit's Class Diagram
+skinparam TitleFontColor White
 skinparam ArrowColor reverse
 skinparam linetype ortho
 skinparam backgroundcolor transparent
